@@ -1,0 +1,47 @@
+body {
+    background: gray;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.month{
+    text-align: center;
+    background: purple;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    border:  1px solid skyblue;
+    color: white;
+    padding: 25px;
+
+}
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid skyblue;
+    
+
+}
+tr, th, td {
+    padding: 15px;
+}
+th {
+    background: rgb(41, 40, 156);
+    color: white;
+}
+td{
+    background: whitesmoke;
+}
+td:hover {
+    background: thistle;
+}
+.title{
+    font-size: 60px;
+    text-align: center;
+}
